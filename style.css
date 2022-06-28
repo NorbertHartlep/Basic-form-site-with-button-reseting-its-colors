@@ -1,0 +1,110 @@
+body{
+    width:auto;
+    height: 952px;
+    border: 3px solid greenyellow;
+    border-radius: 15%;
+    font-family: 'Titan One', cursive;
+    background-color: green;
+    color: #4d9eb3;
+    
+}
+h2{
+    margin-top:100px;
+    margin-bottom:50px;
+    font-size:30px;
+}
+#h11{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+#upper1{
+width: 40%;
+height: 537px;
+float: left;
+border-radius: 15px;
+font-size: 35px;
+border-radius: 15% 0% 0% 0%;
+background-color:greenyellow;
+}
+#upper2{
+    background-color:greenyellow;
+width: 60%;
+height: 537px;
+float: left;
+text-align: center;
+border-radius: 0% 15% 0% 0%;
+
+}
+#down1{
+width: 60%;
+height: 415px;
+float: left;
+border-radius: 0% 0% 0% 15%;
+background-color:greenyellow;
+}
+#down2{
+    width: 40%;
+    height: 415px;
+    float: left;
+    border-radius: 0% 0% 15% 0%;
+    background-color:greenyellow;
+}
+#inside1{
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border:3px solid black;
+    width:150px;
+    height:80px;
+}
+#checkboxx{
+    margin-top: 150px;
+    margin-left: 25px;
+    
+}
+#startFunction{
+    width:300px;
+    height:150px;
+}
+#nightModeText{
+display:none;
+opacity:0;
+margin-left: 40px;
+}
+#clock{
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+#sun{
+    margin-top: 60px;
+}
+#moon{
+margin-left: 70px;
+display:none;
+opacity:0;
+}
+@keyframes anim{
+    50%{font-size: 20px;}
+    100%{font-size: 30px;}
+}
+@keyframes show{
+    100%{opacity: 1;}
+}
+@keyframes hide{
+    100%{opacity: 0;}
+}
+@keyframes nightFont{
+100%{color:black}
+}
+@keyframes dayFont{
+100%{color: #4d9eb3;}
+}
+@keyframes daybg{
+100%{background-color:greenyellow; }
+}
+@keyframes nightbg{
+    100% {background-color: silver;}
+}
