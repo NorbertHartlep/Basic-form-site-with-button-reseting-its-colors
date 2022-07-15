@@ -81,6 +81,10 @@ margin-left: 40px;
 #sun{
     margin-top: 60px;
 }
+#startFunction{
+  margin-top: 100px; 
+  margin-left:50px;
+}
 #moon{
 margin-left: 70px;
 display:none;
